@@ -1,10 +1,10 @@
-!pip install streamlit
 import pandas as pd
 import sqlite3
 from datetime import datetime
 import matplotlib.pyplot as plt
 import seaborn as sns
 import os
+!pip install streamlit
 
 DB_NAME = 'food_waste.db'
 DATA_DIR = 'data'  # Directory to store CSV data files
